@@ -13,7 +13,7 @@ console.log(arrTotal(arr1, arr2));
 (no importa si es mayúscula o minúscula), y devuelva False en caso contrario.*/
 
 function esVocal(letra) {
-  return letra.match(/[aeiou]/) ? true : false
+  return letra.match(/[aeiouAEIOU]/) ? true : false
 }
 
 console.log(esVocal('a')) //test vocal
